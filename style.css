@@ -1,0 +1,45 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Unidad absoluta por defecto */
+    line-height: 1.5;
+    padding: 2rem;
+  }
+  
+  /* Estilos para el header */
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Unidades absolutas */
+  .absolutas {
+    padding: 20px; /* Usando px para definir tamaños fijos */
+    border: 2px solid black;
+    margin-bottom: 2rem;
+    width: 300px;
+  }
+  
+  /* Unidades relativas */
+  .relativas {
+    padding: 1em; /* Usando em para definir relleno relativo al tamaño de fuente del elemento */
+    border: 2px solid green;
+    margin-bottom: 2rem;
+    width: 20rem; /* Usando rem para definir ancho relativo al tamaño de fuente raíz */
+  }
+  
+  /* Unidades de viewport */
+  .viewport {
+    padding: 2vw; /* Relleno relativo al ancho del viewport */
+    border: 2px solid blue;
+    min-height: 50vh; /* Altura mínima del 50% de la altura del viewport */
+    width: 80vw; /* Ancho relativo al 80% del ancho del viewport */
+    margin: 0 auto; /* Centrado horizontal */
+  }
